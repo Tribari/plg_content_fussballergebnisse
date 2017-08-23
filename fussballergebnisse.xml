@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="content">
+	<name>Fussballergebnisse</name>
+	<author>Internetagentur Kähler</author>
+	<creationDate>June 2016</creationDate>
+	<copyright>Copyright (C) 2016 Internetagentur Kähler. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>info@internetagentur-kaehler.de</authorEmail>
+	<authorUrl>www.internetagentur-kaehler.de</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_CONTENT_FUSSBALLERGEBNISSE_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="fussballergebnisse">fussballergebnisse.php</filename>
+		<filename>index.html</filename>
+		<folder>language</folder>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_content_fussballergebnisse.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_content_fussballergebnisse.sys.ini</language>
+		<language tag="de-DE">de-DE/de-DE.plg_content_fussballergebnisse.ini</language>
+		<language tag="de-DE">de-DE/de-DE.plg_content_fussballergebnisse.sys.ini</language>
+	</languages>
+</extension>
