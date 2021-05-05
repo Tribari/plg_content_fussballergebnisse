@@ -4,7 +4,7 @@
  * @version    : 1.0.0
  * @package    : Joomla 3.1+
  * @license    : GNU General Public License version 2 or later
- * @copyright  : (C) 2016 by Internetagentur Kähler - All rights reserved!
+ * @copyright  : (C) 2016 by Internetagentur KÃ¤hler - All rights reserved!
  * @website    : http://www.internetagentur-kaehler.de
  */
 
@@ -44,7 +44,7 @@ class plgContentFussballergebnisse extends JPlugin
     		{
     			$matcheslist = explode(',', $match[1]);
     			
-				if(count($matcheslist>0)){
+				if( count($matcheslist) > 0 ) {
 					
 					//now we have the code
 					$code = $matcheslist[0];
