@@ -8,6 +8,10 @@ Das Plugin kann nur korrekt funktionieren wenn Sie folgende Vorraussetzungen erf
 * Ein Benutzeraccount bei www.fussball.de besitzen
 * Sie ein Widget unter www.fussball.de eingerichtet haben
 
+ACHTUNG:
+Für Joomla 4 nutzen Sie bitte den folgenden Branch: https://github.com/Tribari/plg_content_fussballergebnisse/tree/Joomla-4
+
+
 Anmerkung:
 Wie Sie ein Widget einrichten können Sie unter folgendem Artikel nachlesen:
 * http://www.fussball.de/newsdetail/tipps-fuer-webmaster-so-baue-ich-widgetsein/-/article-id/101716#!/section/news-detail
