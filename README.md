@@ -4,9 +4,13 @@ Mit diesem Joomla-Plugin können Widgets vom Service www.fussball.de auf eine ei
 
 ## 2 Vorraussetzungen
 Das Plugin kann nur korrekt funktionieren wenn Sie folgende Vorraussetzungen erfüllen:
-* Joomla Version 3.X
+* Joomla Version 3.X oder Joomla 4.X
 * Ein Benutzeraccount bei www.fussball.de besitzen
 * Sie ein Widget unter www.fussball.de eingerichtet haben
+
+ACHTUNG:
+Für Joomla 4 nutzen Sie bitte den folgenden Branch: https://github.com/Tribari/plg_content_fussballergebnisse/tree/Joomla-4
+
 
 Anmerkung:
 Wie Sie ein Widget einrichten können Sie unter folgendem Artikel nachlesen:
