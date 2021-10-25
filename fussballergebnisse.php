@@ -1,21 +1,25 @@
 <?php
 /**
  * Plugin Fussballergebnisse Joomla 3.1+
- * @version    : 1.0.0
+ * @version    : 1.0.2
  * @package    : Joomla 3.1+
  * @license    : GNU General Public License version 2 or later
- * @copyright  : (C) 2016 by Internetagentur Kähler - All rights reserved!
+ * @copyright  : (C) 2021 by Internetagentur Kähler - All rights reserved!
  * @website    : http://www.internetagentur-kaehler.de
  */
 
 // no direct access
 defined( '_JEXEC' ) or die;
+
+use Joomla\CMS\Plugin\CMSPlugin;
+use Joomla\CMS\Language\Text;
+use Joomla\CMS\Factory;
  
-class plgContentFussballergebnisse extends JPlugin
+class plgContentFussballergebnisse extends CMSPlugin
 {
 	protected $autoloadLanguage = true;
 	
-    public function onContentPrepare($context, &$article, &$params, $limitstart = 0)
+    public function onContentPrepare($context, &$article, &$params, $page = 0)
     {
     	// any matches of 'fussballergebnisse' in article?
     	if (strpos($article->text, 'fussballergebnisse') === false)
@@ -34,7 +38,7 @@ class plgContentFussballergebnisse extends JPlugin
     	if ($matches)
     	{
     		//load javascript from www.fussball.de
-			$document = JFactory::getDocument();
+			$document = Factory::getDocument();
 			$document->addScript('http://www.fussball.de/static/layout/fbde2/egm//js/widget2.js');
 			
 			//we need a counter for multiple widgets

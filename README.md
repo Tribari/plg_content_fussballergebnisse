@@ -4,7 +4,7 @@ Mit diesem Joomla-Plugin können Widgets vom Service www.fussball.de auf eine ei
 
 ## 2 Vorraussetzungen
 Das Plugin kann nur korrekt funktionieren wenn Sie folgende Vorraussetzungen erfüllen:
-* Joomla Version 3.X
+* Joomla Version 3.X oder Joomla 4.X
 * Ein Benutzeraccount bei www.fussball.de besitzen
 * Sie ein Widget unter www.fussball.de eingerichtet haben
 
