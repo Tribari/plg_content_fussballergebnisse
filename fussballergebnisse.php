@@ -39,7 +39,7 @@ class plgContentFussballergebnisse extends CMSPlugin
     	{
     		//load javascript from www.fussball.de
 			$document = Factory::getDocument();
-			$document->addScript('http://www.fussball.de/static/layout/fbde2/egm//js/widget2.js');
+			$document->addScript('https://www.fussball.de/static/layout/fbde2/egm//js/widget2.js');
 			
 			//we need a counter for multiple widgets
 			$counter = 1;
